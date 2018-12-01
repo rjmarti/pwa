@@ -1,3 +1,15 @@
+
+var app2 = new Vue({
+  el: '#menu-lat',
+  data: {
+    menus: [
+      { text: 'Fiscalización' , icon:'fizcalizacion.png' },
+      { text: 'Relevamiento Trabajadores' , icon:'relevamiento.png'},
+      { text: 'Sincronización' , icon:'sincronizar.png' }
+    ]
+  }
+})
+
 // Copyright 2016 Google Inc.
 // 
 // Licensed under the Apache License, Version 2.0 (the "License");
